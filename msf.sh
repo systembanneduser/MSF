@@ -24,7 +24,7 @@ pink='\033[1;35m'
 function checkinternet(){
 
 clear
-figlet -f smmono9 "MSF" | lolcat
+figlet -f smmono9 " MSF" | lolcat
 echo -e $lg " [*] Checking your Internet Connection "
 echo " "
 ping -c 1 google.com > /dev/null 2>&1
@@ -65,9 +65,9 @@ echo $ye " "
 function menu(){
 
 clear
-toilet -f mono12 -F gay "MSF"
+toilet -f mono12 -F gay " MSF"
 sleep 2
-echo Coded By Isuruwaa | lolcat -a -d 30
+echo "\033[35m  [\033[33m*\033[35m] Coded By Isuruwaa" | lolcat -a -d 30
 echo " "
 echo -e $lgf "1.Install Metasploit"
 echo -e $cy "2.Start a Listener"
