@@ -17,7 +17,6 @@ sleep 1
 echo ""
 
 function ngrokauth(){
-        clear
         echo ""
         echo -n -e $gr "-*-*-* Enter Your Ngrok Authtoken : "
         read
