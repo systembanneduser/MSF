@@ -10,6 +10,11 @@ blue='\033[1;34m'
 cy='\033[1;36m'
 pink='\033[1;35m'
 
+clear
+figlet -f smmono9 " APK" | lolcat
+figlet -f smmono9 " SIGNER" | lolcat
+echo ""
+
 function path(){
 
 echo -e $gr " [N] Name of Unsignned Apk with path :  "
