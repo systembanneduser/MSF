@@ -12,8 +12,8 @@ cyan='\033[1;36m'
 pink='\033[1;35m'
 
 clear
-toilet -f mono12 -F gay "NGROK"
-toilet -f mono12 -F gay "INSTALL"
+figlet -f smmono9 " NGROK" | lolcat
+figlet -f smmono9 " INSTALL" | lolcat
 echo ""
 cd
 echo -e $gr "Downloading Termux-ngrok..."
