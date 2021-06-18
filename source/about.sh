@@ -24,6 +24,11 @@ sleep 2
 toilet -f mono12 -F gay "About"
 echo ""
 fortune | cowsay -f eyes | toilet --metal -f term | lolcat
+echo ""
+echo -e $cy "MSF is a bash based script which is made for Metasploit Framework Multi Purposes ."
+echo ""
+echo -e $lg "More Details at Readme.md"
+echo ""
 read -p 'Press Enter To Continue : >>> ' userinput1;
 #
 cd
