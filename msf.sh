@@ -36,11 +36,11 @@ if [[ "$?" != 0 ]]
     echo ""
     echo -e $ye "                Exit" 
     echo "." | lolcat
-    sleep 2
+    sleep 1
     exit
   else
     echo -e $ye " [+] Internet:${lg} CONNECTED"
-    sleep 2
+    sleep 1
   fi
 
 }
