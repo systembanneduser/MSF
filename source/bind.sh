@@ -12,8 +12,8 @@ cyan='\033[1;36m'
 pink='\033[1;35m'
 
 clear
-toilet -f mono12 -F gay " APK"
-toilet -f mono12 -F gay " BINDER"
+figlet -f smmono9 " APK" | lolcat
+figlet -f smmono9 " BINDER" | lolcat
 sleep 1
 echo ""
 
@@ -59,8 +59,8 @@ echo ""
 apkmod -b $bindapk -o $outapk.apk lhost=$lhost lport=$lport
 sleep 1
 clear
-toilet -f mono12 -F gay "APK"
-toilet -f mono12 -F gay " BINDER"
+figlet -f smmono9 " APK" | lolcat
+figlet -f smmono9 " BINDER" | lolcat
 sleep 1
 echo ""
 echo -e $gr "APK BINDED"
