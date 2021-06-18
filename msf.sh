@@ -67,7 +67,8 @@ function menu(){
 clear
 toilet -f mono12 -F gay " MSF"
 sleep 2
-echo "\033[35m  [\033[33m*\033[35m] Coded By Isuruwaa" | lolcat -a -d 30
+echo " [*]  Coded By Isuruwaa" | lolcat -a -d 30
+echo " "
 echo " "
 echo -e $lgf "1.Install Metasploit"
 echo -e $cy "2.Start a Listener"
