@@ -19,15 +19,15 @@ cy='\e[0;36m'
 lg='\e[1;32m'
 ye='\e[1;33m'
 
-echo ""
-sleep 2
+clear
+sleep 1
 toilet -f mono12 -F gay "About"
 echo ""
 fortune | cowsay -f eyes | toilet --metal -f term | lolcat
 echo ""
-echo -e $cy "MSF is a bash based script which is made for Metasploit Framework Multi Purposes ."
+echo -e $cy "[*] MSF is a bash based script which is made for Metasploit Framework Multi Purposes ."
 echo ""
-echo -e $lg "More Details at Readme.md"
+echo -e $re "[*] More Details at Readme.md"
 echo ""
 read -p 'Press Enter To Continue : >>> ' userinput1;
 #
