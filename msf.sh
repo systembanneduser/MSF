@@ -98,6 +98,7 @@ then
 	bash install1.sh
 elif [ "${userinput1:-}" = "2" ]
 then
+	postserver
 	cd
 	cd MSF
 	cd source
