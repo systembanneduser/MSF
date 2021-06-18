@@ -11,8 +11,8 @@ cy='\033[1;36m'
 pink='\033[1;35m'
 
 clear
-toilet -f mono12 -F gay "NGROK"
-toilet -f mono12 -F gay "CONFIGURE"
+figlet -f smmono9 " NGROK" | lolcat
+figlet -f smmono9 " CONFIGURE" | lolcat
 sleep 1
 echo ""
 
