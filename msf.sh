@@ -202,4 +202,5 @@ fi
  }
 
 
+checkinternet
 menu
