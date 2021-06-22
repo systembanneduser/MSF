@@ -32,11 +32,11 @@ MSF is a bash based script which is made for Metasploit Framework Multi Purposes
 
 1.Replaced Metasploit Installing Script .
 
-2.Added PostServer AutoStart .
+2.Added postgresql Server AutoStart .
 
 3.Added More Payloads. ( MAC , LINUX , PHP , PYTHON )
 
-4.Replaced Apktool with Apkmod installing .
+4.Replaced Apktool with Apkmod .
 
 5.Added Apk Binding & Apk signing .
 
