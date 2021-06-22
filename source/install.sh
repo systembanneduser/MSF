@@ -21,11 +21,12 @@ pink='\033[1;35m'
 
 figlet Metasploit | lolcat
 figlet Install | lolcat
+echo ""
 echo -e $lgf "The Best Script to install Metasploit is NoobHackers M-Wiz Script"
 echo ""
 echo -e "Reason" | lolcat
 echo ""
-echo -e $re "Most Metasploit installing tools in termux are not working , because now termux req"
+echo -e $re "Most Metasploit installing tools in termux are not working , because now termux req ruby 2.0"
 echo -e $bl "Termux installs only ruby 3.0 by default ,So it needs to install ruby 2.0 manually "
 echo ""
 echo -e "Installation Error" | lolcat
