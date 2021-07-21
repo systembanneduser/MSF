@@ -22,11 +22,10 @@ pkg install python -y
 pkg install python2 -y
 pkg install git -y
 pkg install wget
-cd
 clear
 figlet "APKMOD" | locat
 wget https://raw.githubusercontent.com/Hax4us/Apkmod/master/setup.sh
-echo -e $gr "Now here the installation process will start and it may take a long time to get done so please wait for it to complete... ! "
+echo -e $gr "Now  the installation process will start and it may take a long time to get done so please wait for it to complete... ! "
 sleep 2
 bash setup.sh
 clear
