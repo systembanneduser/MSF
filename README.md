@@ -1,13 +1,12 @@
 <a href="https://github.com/isuruwa"><img title="addon" src="https://img.shields.io/badge/isuruwa-MSF-brightgreen?style=for-the-badge&logo=appveyor"></a>
 <p align="center">
-<img src="https://img.icons8.com/nolan/256/pixel-gun-3d.png"/>
-<p align="center">
-<a href="https://t.me/technolk"><img title="addon" src="https://img.shields.io/badge/isuruwa-Metasploit Multi ToolKit-blueviolet?style=for-the-badge&logo=appveyor"></a>
+  
+![metas](https://user-images.githubusercontent.com/72663288/126445779-1de93990-7b5d-41d0-8ca8-f75ae35125f8.png)
+
+<a href="https://github.com/isuruwa/MSF"><img title="addon" src="https://img.shields.io/badge/isuruwa-Metasploit Multi ToolKit-blueviolet?style=for-the-badge&logo=appveyor"></a>
 </p>
 <br>
-<p align="center">
 <img align="center" alt="visitors" src="https://visitor-badge.glitch.me/badge?page_id=isuruwamsf" />
-<br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fisuruwa&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </p>
 <br>
