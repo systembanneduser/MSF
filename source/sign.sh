@@ -25,7 +25,7 @@ read lhost
 
 function out(){
 
-echo -e $cy " [O] Name of Signned Apk with path :   "
+echo -e $cy " [O] Name of Output Signned Apk with path :   "
 echo -n -e "[O] : "
 read name
 
