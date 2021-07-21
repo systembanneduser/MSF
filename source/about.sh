@@ -25,7 +25,7 @@ toilet -f mono12 -F gay "About"
 echo ""
 fortune | cowsay -f eyes | toilet --metal -f term | lolcat
 echo ""
-echo -e $cy "[*] MSF is a bash based script which is made for Metasploit Framework Multi Purposes ."
+echo -e $cy "[*] MSF is a bash based script which is made for operate All Multi Purposes In Metasploit Framework in Termux."
 echo ""
 echo -e $re "[*] More Details at Readme.md"
 echo ""
