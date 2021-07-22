@@ -31,7 +31,8 @@ echo -e $bl "[*] Termux installs only ruby 3.0 by default ,So it needs to instal
 echo ""
 echo -e $cy "[*] After you begin to install metasploit  , it takes about 40 minutes "
 echo ""
-read -p "[+] Are you sure to Install Metasploit ? <y/n> " prompt | lolcat
+echo -e $lgf "[+] Are you sure to Install Metasploit ? <y/n> "
+read prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
 then
     cd
