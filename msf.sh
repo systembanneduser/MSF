@@ -67,7 +67,7 @@ function menu(){
 clear
 toilet -f mono12 -F gay " MSF"
 sleep 2
-echo " [*]  Coded By Isuruwaa" | lolcat -a -d 30
+echo " [*] DEVELOPED BY DEVIL MASTER" | lolcat -a -d 30
 echo " "
 echo " "
 echo -e $lgf "1.Install Metasploit"
