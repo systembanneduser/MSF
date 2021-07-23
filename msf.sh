@@ -1,6 +1,6 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
-#CODED BY ISURUWA
+#CODED BY DEVILMASTER
 
 re='\e[1;31m'
 white='\e[1;37m'
@@ -187,10 +187,7 @@ then
 	bash about.sh
 elif  [ "${userinput1:-}" = "16" ]
 then
-	cd
-	cd MSF
-	cd source
-        bash msf.sh
+        exit 0
 elif  [ "${userinput1:-}" = "" ]
 then
          menu
