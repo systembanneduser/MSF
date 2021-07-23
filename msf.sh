@@ -92,15 +92,11 @@ read userinput1
 
 if [ "${userinput1:-}" = "1" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash install.sh
 elif [ "${userinput1:-}" = "2" ]
 then
 	postserver
-	cd
-	cd MSF
 	cd source
 	bash listner.sh
 elif [ "${userinput1:-}" = "3" ]
@@ -109,80 +105,56 @@ then
 	cp -r inject.sh /sdcard
 	sleep 2
 	echo -e $lgf "The Backdoor Script has generated & coppied to the internal storage as inject.sh . "
-        sleep 4
+        sleep 2
         cd
         cd MSF
         bash msf.sh
 elif [ "${userinput1:-}" = "4" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash payloadandro.sh
 elif [ "${userinput1:-}" = "5" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash payloadwin.sh
 elif [ "${userinput1:-}" = "6" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash payloadlinux.sh
 elif [ "${userinput1:-}" = "7" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash payloadmac.sh
 elif  [ "${userinput1:-}" = "8" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash payloadphp.sh
 elif  [ "${userinput1:-}" = "9" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash payloadpy.sh
 elif  [ "${userinput1:-}" = "10" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash apkmodinstall.sh
 elif  [ "${userinput1:-}" = "11" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash bind.sh
 elif  [ "${userinput1:-}" = "12" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash sign.sh
 elif  [ "${userinput1:-}" = "13" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash ngrokdown.sh
 elif  [ "${userinput1:-}" = "14" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash ngrokconfigure.sh
 elif  [ "${userinput1:-}" = "15" ]
 then
-	cd
-	cd MSF
 	cd source
 	bash about.sh
 elif  [ "${userinput1:-}" = "16" ]
